@@ -1,0 +1,82 @@
+.jumbotron {
+  background: url("https://i.pinimg.com/originals/6f/22/ab/6f22abda0a100cadc9145993630ff50a.jpg");
+  background-size: cover;
+  padding-top: 10%;
+  min-height: 70vh;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 1px black;
+}
+
+.error {
+    color: red;
+    font-style: italic;
+}
+
+button a {
+  color: white !important;
+}
+.btn-outline-danger {
+     padding: 10px !important;
+  margin: 10px !important; 
+}
+.btn-outline-primary {
+  color: antiquewhite;
+  padding: 10px !important;
+  margin: 10px !important;
+  background-color: #d2786e;
+  background-image: none;
+  border-color: antiquewhite;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: antiquewhite;
+}
+
+body{
+  background-image: url("https://i.gifer.com/2r5w.gif");
+}
+#button1:hover{
+  background: #343a40;
+}
+button#button2:hover {
+  background: #343a40;
+}
+
+#button3:hover{
+  background: #343a40;
+}
+
+/*Button index more infor*/
+#button4:hover{
+  background: #343a40;
+}
+
+#button5{
+  background: none;
+  background-image: none;
+  color: #d2786e;
+  border-color: #d2786e;
+}
+
+#button5:hover{
+  background: #d2786e;
+  color: white;
+}
+/*Ảnh body*/
+.row{
+  margin: 50px 0px;
+}
+.showcase .showcase-img {
+  min-height: 30rem;
+  border-radius:50%;
+  background-size: cover;
+  @media (min-width: 992px)
+  .col-lg-6 {
+      flex: 0 0 auto;
+      width: 50%;
+  }
+}
+
